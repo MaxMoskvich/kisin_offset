@@ -10,4 +10,3 @@ def get_fio():
         return JSONResponse({"message": "Кисин Максим Олегович УБСТ2101"})
     except Exception as error:
         raise SystemException(error)
-
